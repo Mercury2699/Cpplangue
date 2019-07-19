@@ -1,0 +1,7 @@
+./Sample-Images/rot13
+./Sample-Images/flip
+./Sample-Images/sepia
+./Sample-Images/sss
+./Sample-Images/frfrfr
+./Sample-Images/frsfrsfrs
+./Sample-Images/sample

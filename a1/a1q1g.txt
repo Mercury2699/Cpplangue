@@ -1,0 +1,1 @@
+head -n 20 myfile.txt | grep -c [1-9]

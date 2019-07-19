@@ -1,0 +1,7 @@
+./tests/rot13
+./tests/flip
+./tests/sepia
+./tests/sss
+./tests/frfrfr
+./tests/frsfrsfrs
+./tests/sample

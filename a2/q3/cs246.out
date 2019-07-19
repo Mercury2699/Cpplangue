@@ -1,0 +1,11 @@
+CS246
+select invalid
+CommandLineTool invalid
+acc invalid
+Valid records: 5
+secret 74
+failed 40
+error 59
+passed 78
+lookup 75
+Average: 65

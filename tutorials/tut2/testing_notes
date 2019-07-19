@@ -1,0 +1,8 @@
+-Pass any correct implementation of the program
+-Buggy code does not pass
+
+Quality: Tests should be meaningful
+Quantity: Testing should be thorough enough to catch all bugs
+
+Whitebox testing
+Blackbox testing

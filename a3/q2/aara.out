@@ -1,0 +1,50 @@
+Group g1 with name "a" has been created.
+Added email address "dh0891u2ewq" to group g1 =
+a
+[dh0891u2ewq]
+
+Added email address "e32j1e908" to group g1 =
+a
+[dh0891u2ewq, e32j1e908]
+
+Added email address "s1e39!@#$@1d" to group g1 =
+a
+[dh0891u2ewq, e32j1e908, s1e39!@#$@1d]
+
+Group g2 with name "b" has been created.
+Added email address "S#!@4d12431s" to group g2 =
+b
+[S#!@4d12431s]
+
+Added email address "s31243sum014@!" to group g2 =
+b
+[S#!@4d12431s, s31243sum014@!]
+
+Added email address "e#1s43987n18904" to group g2 =
+b
+[S#!@4d12431s, e#1s43987n18904, s31243sum014@!]
+
+Group g1 =
+a
+[dh0891u2ewq, e32j1e908, s1e39!@#$@1d]
+
+Group g2 =
+b
+[S#!@4d12431s, e#1s43987n18904, s31243sum014@!]
+
+Removed email address "dej89wqrnu891" from group g1 unsuccessfully; g1 =
+a
+[dh0891u2ewq, e32j1e908, s1e39!@#$@1d]
+
+Removed email address "s1e39!@#$@1d" from group g2 unsuccessfully; g2 =
+b
+[S#!@4d12431s, e#1s43987n18904, s31243sum014@!]
+
+Removed email address "s1e39!@#$@1d" from group g1 successfully; g1 =
+a
+[dh0891u2ewq, e32j1e908]
+
+Group g1 =
+a
+[dh0891u2ewq, e32j1e908]
+

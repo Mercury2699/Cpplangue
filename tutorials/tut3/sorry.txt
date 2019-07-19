@@ -1,0 +1,9 @@
+To my 8:30AM lecture:
+
+I apologize for the issues with my example in class. I accidentally was checking
+the fail and EOF bits of std::cout instead of std::cin. If you try the example
+currently in the tutorial folder, it should work as intended.
+
+See you next week!
+
+Josh

@@ -1,0 +1,8 @@
+1 -2 NEG + x - ABS 2 * done
+eval
+
+set x 9
+print eval
+
+set y 7
+print eval

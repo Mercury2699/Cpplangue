@@ -1,0 +1,27 @@
+Group g1 with name "g" has been created.
+Added email address "e1" to group g1 =
+g
+[e1]
+
+Added email address "e2" to group g1 =
+g
+[e1, e2]
+
+Added email address "e3" to group g1 =
+g
+[e1, e2, e3]
+
+Group g2 with name "h" has been created.
+Added email address "e4" to group g2 =
+h
+[e4]
+
+Move g2 to g1
+g1 =
+g
+[e1, e2, e3]
+	h
+	[e4]
+
+Find email address "e3" in group g1 successfully; node =
+e3

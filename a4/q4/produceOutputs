@@ -1,0 +1,15 @@
+#!/bin/bash
+
+usage(){
+    echo "Error: incorrect number of command line arguments." 1>&2
+    echo "Usage: $0 <suite name> <program name>" 1>&2
+    exit 1
+}
+
+if [ ${#} -ne 2 ]; then
+    usage
+fi
+
+for suites in $(cat $1); do
+	$2 < $suites.in > $suites.out
+done

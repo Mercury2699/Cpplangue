@@ -1,0 +1,11 @@
+((((x + y) * z) + alpha) - beta)
+((((x + y) * z) + alpha) - beta)
+x has no value.
+((((1 + 2) * 3) + 8) - 9)
+8
+((((5 + 2) * 3) + 8) - 9)
+20
+((((5 + 2) * 3) + alpha) - 9)
+alpha has no value.
+((((x + 2) * 3) + alpha) - 9)
+x has no value.

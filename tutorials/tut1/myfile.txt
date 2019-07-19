@@ -1,0 +1,5 @@
+I love CS246!
+I also love memes!
+Wow!
+p
+$(cat file) hi!

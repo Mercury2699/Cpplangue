@@ -1,0 +1,53 @@
+#!/bin/bash
+
+usage(){
+    echo -e "\e[31mError: incorrect number of command line arguments.\e[0m" 1>&2
+    echo -e "\e[31mUsage: $0 <suite name> <program name>\e[0m" 1>&2
+    exit 1
+}
+
+if [ ${#} -ne 2 ]; then
+    usage
+fi
+
+for suites in $(cat $1); do
+	echo -e "\e[1m\e[4mTesting $suites ...\e[0m"
+	if [ ! -e $suites.out -o ! -r $suites.out ]; then 
+		echo -e "\e[31mError: $suites.out doesn't exist or unreadable.\e[0m" 1>&2
+		exit 2
+	fi
+    tempout=$(mktemp)
+    if [ -e $suites.args ]; then
+    	if [ -e $suites.in ]; then
+			timeout 20s valgrind -q --leak-check=full $2 $(cat $suites.args) < $suites.in > $tempout
+		else
+			timeout 20s valgrind -q --leak-check=full $2 $(cat $suites.args) > $tempout
+		fi
+    else 
+    	if [ -e $suites.in ]; then
+			timeout 20s valgrind -q --leak-check=full $2 < $suites.in > $tempout
+		else
+			timeout 20s valgrind -q --leak-check=full $2 > $tempout
+		fi
+	fi
+	
+	diff $tempout $suites.out > /dev/null
+	if [ ${?} -ne 0 ]; then
+		echo -e "\e[31mTest failed: $suites\e[0m"
+		echo -e "\e[7mArgs:\e[0m"
+    	if [ -e $suites.args ]; then
+			cat $suites.args
+		fi
+		echo -e "\e[7mInput:\e[0m"
+		if [ -e $suites.in ]; then
+			cat $suites.in
+		fi
+		echo -e "\e[7mExpected:\e[0m"
+		cat $suites.out
+		echo -e "\e[7mActual:\e[0m"
+		cat $tempout
+	else 
+		echo -e "\e[32m✓ Test $suites Passed!\e[0m"
+	fi
+	rm $tempout
+done

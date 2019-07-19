@@ -1,0 +1,8 @@
+test1: CORRECT
+test2: INCORRECT: should be increasing
+test3: CORRECT
+test4: CORRECT
+test5: INCORRECT: at least 0, not more than 0
+test6: INCORRECT: non-negative, not positive (0)
+test7: CORRECT
+test8: INCORRECT: <, not <=

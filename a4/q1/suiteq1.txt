@@ -1,0 +1,11 @@
+./sample-tests/public1
+./sample-tests/public2
+./sample-tests/public3
+./sample-tests/sample
+./tests/pm
+./tests/pmmd
+./tests/unk
+./tests/unkchar
+./tests/negabs
+./tests/multivar
+

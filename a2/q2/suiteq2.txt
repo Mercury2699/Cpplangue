@@ -1,0 +1,8 @@
+test
+sample
+test255
+onlyOne
+impossible
+badArg
+notUsed
+zero

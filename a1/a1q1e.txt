@@ -1,0 +1,1 @@
+egrep -c "[Ll][Ii][Nn][Uu][Xx]\.[Ss][Tt][Uu][Dd][Ee][Nn][Tt]\.[Cc][Ss]\.[Uu][Ww][Aa][Tt][Ee][Rr][Ll][Oo][Oo]\.[Cc][Aa]" myfile.txt

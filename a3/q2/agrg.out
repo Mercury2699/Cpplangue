@@ -1,0 +1,88 @@
+Group g1 with name "a" has been created.
+Added email address "dh0891u2ewq" to group g1 =
+a
+[dh0891u2ewq]
+
+Added email address "e32j1e908" to group g1 =
+a
+[dh0891u2ewq, e32j1e908]
+
+Added email address "s1e39!@#$@1d" to group g1 =
+a
+[dh0891u2ewq, e32j1e908, s1e39!@#$@1d]
+
+Added email address "dhequwru8390m12u302" to group g1 =
+a
+[dh0891u2ewq, dhequwru8390m12u302, e32j1e908, s1e39!@#$@1d]
+
+Added email address "assy1239n78e9s37812xe3" to group g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908, s1e39!@#$@1d]
+
+Group g2 with name "b" has been created.
+Added email address "S#!@nx37du18932" to group g2 =
+b
+[S#!@nx37du18932]
+
+Added email address "ewhxfn89eh3289he@!" to group g2 =
+b
+[S#!@nx37du18932, ewhxfn89eh3289he@!]
+
+Added email address "z#exquweoiwh" to group g2 =
+b
+[S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Added email address "Ahueiwhqr89321" to group g2 =
+b
+[Ahueiwhqr89321, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Added email address "Feu8902urm3890x1" to group g2 =
+b
+[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Group g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908, s1e39!@#$@1d]
+
+Group g2 =
+b
+[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Move g2 to g1
+g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908, s1e39!@#$@1d]
+	b
+	[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Removed email address "x3hm1903821xd" from group g1 unsuccessfully; g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908, s1e39!@#$@1d]
+	b
+	[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Removed email address "s1e39!@#$@1d" from group g1 successfully; g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908]
+	b
+	[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Group g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908]
+	b
+	[Ahueiwhqr89321, Feu8902urm3890x1, S#!@nx37du18932, ewhxfn89eh3289he@!, z#exquweoiwh]
+
+Removed subgroup named "b" from group g1 successfully; g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908]
+
+Group g2 with name "b" has been created.
+Group g2 =
+b
+[]
+
+Group g1 =
+a
+[assy1239n78e9s37812xe3, dh0891u2ewq, dhequwru8390m12u302, e32j1e908]
+

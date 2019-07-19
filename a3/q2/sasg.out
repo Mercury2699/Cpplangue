@@ -1,0 +1,102 @@
+Group g0 with name "a" has been created.
+Group g1 with name "b" has been created.
+Group g2 with name "c" has been created.
+Group g3 with name "d" has been created.
+Group g4 with name "e" has been created.
+Group g5 with name "f" has been created.
+Group g6 with name "g" has been created.
+Group g7 with name "h" has been created.
+Group g8 with name "i" has been created.
+Group g9 with name "j" has been created.
+Added email address "hfud0f8n940u2r89m30x12" to group g0 =
+a
+[hfud0f8n940u2r89m30x12]
+
+Added email address "3y8920117nxhdsua9" to group g0 =
+a
+[3y8920117nxhdsua9, hfud0f8n940u2r89m30x12]
+
+Added email address "AY&@r432crun849012*" to group g0 =
+a
+[3y8920117nxhdsua9, AY&@r432crun849012*, hfud0f8n940u2r89m30x12]
+
+Added email address "ny7839x321" to group g0 =
+a
+[3y8920117nxhdsua9, AY&@r432crun849012*, hfud0f8n940u2r89m30x12, ny7839x321]
+
+Added email address "hfud0f8n940u2r89m30x12" to group g1 =
+b
+[hfud0f8n940u2r89m30x12]
+
+Added email address "fneuhqx978922c" to group g2 =
+c
+[fneuhqx978922c]
+
+Added email address "fneuhqx978922c" to group g2 =
+c
+[fneuhqx978922c, fneuhqx978922c]
+
+Added email address "AY&@h7n8xr9312*" to group g3 =
+d
+[AY&@h7n8xr9312*]
+
+Added email address "um38921ue3nry2789r" to group g3 =
+d
+[AY&@h7n8xr9312*, um38921ue3nry2789r]
+
+Added email address "ehqxfn789e829" to group g4 =
+e
+[ehqxfn789e829]
+
+Move g1 to g0
+g0 =
+a
+[3y8920117nxhdsua9, AY&@r432crun849012*, hfud0f8n940u2r89m30x12, ny7839x321]
+	b
+	[hfud0f8n940u2r89m30x12]
+
+Move g3 to g2
+g2 =
+c
+[fneuhqx978922c, fneuhqx978922c]
+	d
+	[AY&@h7n8xr9312*, um38921ue3nry2789r]
+
+Move g2 to g0
+g0 =
+a
+[3y8920117nxhdsua9, AY&@r432crun849012*, hfud0f8n940u2r89m30x12, ny7839x321]
+	b
+	[hfud0f8n940u2r89m30x12]
+	c
+	[fneuhqx978922c, fneuhqx978922c]
+		d
+		[AY&@h7n8xr9312*, um38921ue3nry2789r]
+
+Move g4 to g0
+g0 =
+a
+[3y8920117nxhdsua9, AY&@r432crun849012*, hfud0f8n940u2r89m30x12, ny7839x321]
+	b
+	[hfud0f8n940u2r89m30x12]
+	c
+	[fneuhqx978922c, fneuhqx978922c]
+		d
+		[AY&@h7n8xr9312*, um38921ue3nry2789r]
+	e
+	[ehqxfn789e829]
+
+Find email address "hfud0f8n940u2r89m30x12" in group g0 successfully; node =
+hfud0f8n940u2r89m30x12
+Find group name "f" in group g0 unsuccessfully
+Find group name "g1" in group g0 unsuccessfully
+Find group name "b" in group g0 successfully; node =
+b
+[hfud0f8n940u2r89m30x12]
+
+Find group name "d" in group g0 successfully; node =
+d
+[AY&@h7n8xr9312*, um38921ue3nry2789r]
+
+Find email address "um38921ue3nry2789r" in group g0 successfully; node =
+um38921ue3nry2789r

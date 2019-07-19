@@ -1,0 +1,10 @@
+Welcome to the testing example!
+
+1. In check.h, there are the descriptions of 8 test programs. Each one has
+a "Claim", claiming what the program does. There are 4 CORRECT claims and 4
+INCORRECT claims. Your job is to create test cases to see which ones are
+CORRECT and which ones are INCORRECT.
+
+2. The executable is called test. See the PDF for how to use it.
+
+3. The answers are in answers.txt.

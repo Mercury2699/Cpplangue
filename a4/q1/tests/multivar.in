@@ -1,0 +1,20 @@
+x y + z * alpha + beta - done
+print
+eval
+
+set x 1 set y 2 set z 3
+set alpha 8 set beta 9
+
+print
+eval
+
+set x 5
+print eval
+
+unset alpha
+print
+eval
+
+unset x
+print
+eval

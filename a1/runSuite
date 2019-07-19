@@ -1,0 +1,38 @@
+#!/bin/bash
+
+usage(){
+    echo "Error: incorrect number of command line arguments." 1>&2
+    echo "Usage: $0 <suite name> <program name>" 1>&2
+    exit 1
+}
+
+if [ ${#} -ne 2 ]; then
+    usage
+fi
+
+for suites in $(cat $1); do
+	if [ ! -e $suites.out -o ! -r $suites.out ]; then 
+		echo "Error: $suites.out doesn't exist or unreadable." 1>&2
+		exit 2
+	fi
+    tempout=$(mktemp)
+    if [ -e $suites.args ]; then
+		$2 $(cat $suites.args) > $tempout
+    else 
+		$2 > $tempout
+	fi
+	
+	diff $tempout $suites.out > /dev/null
+	if [ ${?} -ne 0 ]; then
+		echo "Test failed: $suites"
+		echo "Args:"
+    	if [ -e $suites.args ]; then
+			cat $suites.args
+		fi
+		echo "Expected:"
+		cat $suites.out
+		echo "Actual:"
+		cat $tempout
+	fi
+	rm $tempout
+done
