@@ -1,0 +1,3 @@
+[submodule "a5/CS246-A5"]
+	path = a5/CS246-A5
+	url = git@github.com:Mercury2699/CS246-A5.git
